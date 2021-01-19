@@ -1,17 +1,59 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/Header.css';
+import '../stylesheets/Button.css';
 
 const Header = () => {
     return (
         <div className="navbar navbar-light header" style={{ backgroundImage: "url(/Banner.png"}}>
-            <form class="container-fluid justify-content-start">
-                <Link class="btn btn-outline-success me-2" type="button">ART</Link>
-                <Link class="btn btn-outline-success me-2" type="button">VINTAGE</Link>
-                <Link class="btn btn-outline-success me-2" type="button">ACCESORIES</Link>
-                <Link class="btn btn-outline-success me-2" type="button">SESSIONS</Link>
-                <Link class="btn btn-outline-success me-2" type="button">CONTACT</Link>
-            </form>
+            <div className="container-fluid justify-content-around brandname">IENAberlin</div>
+            <div class="container-fluid justify-content-around">
+                <Link 
+                class="button">
+                    <div class="button-text">
+                    ART
+                    </div>
+                    <div class="text-center">
+                    x
+                    </div>
+                </Link>
+                <Link 
+                class="button">
+                    <div class="button-text">
+                    VINTAGE
+                    </div>
+                    <div class="text-center">
+                    x
+                    </div>
+                </Link>
+                <Link 
+                class="button">
+                    <div class="button-text">
+                    ACCESORIES
+                    </div>
+                    <div class="text-center">
+                    x
+                    </div>
+                </Link>
+                <Link 
+                class="button">
+                    <div class="button-text">
+                    SESSIONS
+                    </div>
+                    <div class="text-center">
+                    x
+                    </div>
+                </Link>
+                <Link 
+                class="button">
+                    <div class="button-text">
+                    CONTACT
+                    </div>
+                    <div class="text-center">
+                    x
+                    </div>
+                </Link>
+            </div>
         </div>
     );
 };

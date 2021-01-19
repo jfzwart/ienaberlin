@@ -1,4 +1,11 @@
 .header {
     height: 230px;
-    background-image: "url(/Banner.png)",
+    background-size: cover;
+}
+
+.brandname {
+    color: rgb(230,68,30);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 30px;
 }

@@ -1,0 +1,16 @@
+.button {
+    color: white;
+    border: 4px solid white;
+    font-size: x-large;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button .button-text {
+    margin-bottom: -12px;
+}
