@@ -8,4 +8,9 @@
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 3rem;
     letter-spacing: 30px;
+    text-decoration: none;
+}
+
+.brandname:hover {
+    color: white;
 }

@@ -8,9 +8,13 @@
     padding-bottom: 10px;
     text-decoration: none;
     font-family: 'Nanum Gothic Coding', monospace;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .button .button-text {
     margin-bottom: -12px;
+}
+
+.button:hover {
+    color: rgb(230,68,30);
 }

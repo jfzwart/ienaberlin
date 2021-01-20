@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Vintage = () => {
-    return <div>Vintage</div>
+    return <div>Website under contruction</div>
 }
 
 export default Vintage;

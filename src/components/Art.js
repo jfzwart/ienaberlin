@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Art = () => {
-    return <div>Art</div>
+    return <div>Website under contruction</div>
 }
 
 export default Art;
