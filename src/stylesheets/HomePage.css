@@ -1,0 +1,13 @@
+.home-banner {
+    height: 765px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: cover;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+}

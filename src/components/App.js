@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Home from './Home';
 import { Router, Route, Switch } from 'react-router-dom';
 import history from '../history'
 
@@ -11,7 +12,8 @@ class App extends React.Component {
                 <div>
                     <Header />
                     <Switch>
-                        <Route path='/' />
+                        <Route path='/' exact component={Home}/>
+                        <Route path='/art' exact />
                     </Switch>
                 </div>
                 </Router>

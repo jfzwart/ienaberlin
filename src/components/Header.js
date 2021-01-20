@@ -29,7 +29,7 @@ const Header = () => {
                 <Link 
                 class="button">
                     <div class="button-text">
-                    ACCESORIES
+                    ACCESSORIES
                     </div>
                     <div class="text-center">
                     x
