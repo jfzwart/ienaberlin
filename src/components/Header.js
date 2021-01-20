@@ -6,9 +6,9 @@ import '../stylesheets/Button.css';
 const Header = () => {
     return (
         <div className="navbar navbar-light header" style={{ backgroundImage: "url(/Banner.png"}}>
-            <div className="container-fluid justify-content-around brandname">IENAberlin</div>
+            <Link to="/" className="container-fluid justify-content-around brandname">IENAberlin</Link>
             <div class="container-fluid justify-content-around">
-                <Link 
+                <Link to="/art"
                 class="button">
                     <div class="button-text">
                     ART
@@ -17,7 +17,7 @@ const Header = () => {
                     x
                     </div>
                 </Link>
-                <Link 
+                <Link to="/vintage"
                 class="button">
                     <div class="button-text">
                     VINTAGE
@@ -26,7 +26,7 @@ const Header = () => {
                     x
                     </div>
                 </Link>
-                <Link 
+                <Link to="/accessories"
                 class="button">
                     <div class="button-text">
                     ACCESSORIES
@@ -35,7 +35,7 @@ const Header = () => {
                     x
                     </div>
                 </Link>
-                <Link 
+                <Link to="/sessions"
                 class="button">
                     <div class="button-text">
                     SESSIONS
@@ -44,7 +44,7 @@ const Header = () => {
                     x
                     </div>
                 </Link>
-                <Link 
+                <Link to="/contact"
                 class="button">
                     <div class="button-text">
                     CONTACT
