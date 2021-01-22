@@ -5,6 +5,7 @@ import Art from './Art';
 import Contact from './Contact';
 import Sessions from './Sessions';
 import Vintage from './Vintage';
+import Footer from './Footer';
 import Accessories from './Accessories';
 import { Router, Route, Switch } from 'react-router-dom';
 import history from '../history'
@@ -24,6 +25,7 @@ class App extends React.Component {
                         <Route path='/vintage' exact component={Vintage}/>
                         <Route path='/accessories' exact component={Accessories}/>
                     </Switch>
+                    <Footer />
                 </div>
                 </Router>
             </div>
