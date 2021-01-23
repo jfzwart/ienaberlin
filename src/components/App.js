@@ -9,6 +9,8 @@ import Footer from './Footer';
 import Accessories from './Accessories';
 import { Router, Route, Switch } from 'react-router-dom';
 import history from '../history'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 class App extends React.Component {
     render() {
@@ -32,5 +34,7 @@ class App extends React.Component {
         );
     };
 };
+
+library.add(fab)
 
 export default App;
