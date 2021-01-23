@@ -9,7 +9,7 @@ const Home = () => {
             <div className="home-banner" style={{ backgroundImage: "url(/Main.png"}}>
             <button class="button center">
                     <div class="button-text">
-                    Website under construction!
+                    WEBSITE UNDER CONSTUCTION
                     </div>
                     <div class="text-center">
                     x
