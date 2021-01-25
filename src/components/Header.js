@@ -7,49 +7,49 @@ const Header = () => {
     return (
         <div className="navbar navbar-light header" style={{ backgroundImage: "url(/Banner.png"}}>
             <Link to="/" className="container-fluid justify-content-around brandname">IENAberlin</Link>
-            <div class="container-fluid justify-content-around">
+            <div className="container-fluid justify-content-around">
                 <Link to="/art"
-                class="button">
-                    <div class="button-text">
+                className="button">
+                    <div className="button-text">
                     ART
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                     x
                     </div>
                 </Link>
                 <Link to="/vintage"
-                class="button">
-                    <div class="button-text">
+                className="button">
+                    <div className="button-text">
                     VINTAGE
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                     x
                     </div>
                 </Link>
                 <Link to="/accessories"
-                class="button">
-                    <div class="button-text">
+                className="button">
+                    <div className="button-text">
                     ACCESSORIES
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                     x
                     </div>
                 </Link>
                 <Link to="/sessions"
-                class="button">
-                    <div class="button-text">
+                className="button">
+                    <div className="button-text">
                     SESSIONS
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                     x
                     </div>
                 </Link>
                 <Link to="/contact"
-                class="button">
-                    <div class="button-text">
+                className="button">
+                    <div className="button-text">
                     CONTACT
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                     x
                     </div>
                 </Link>

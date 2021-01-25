@@ -3658,7 +3658,7 @@
   "resolved" "https://registry.yarnpkg.com/check-types/-/check-types-11.1.2.tgz"
   "version" "11.1.2"
 
-"chokidar@^2.1.8":
+"chokidar@^2.1.8", "chokidar@>=2.0.0 <4.0.0":
   "integrity" "sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg=="
   "resolved" "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz"
   "version" "2.1.8"
@@ -8477,7 +8477,7 @@
   "resolved" "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.67.tgz"
   "version" "1.1.67"
 
-"node-sass@^4.0.0", "node-sass@^5.0.0":
+"node-sass@^4.0.0":
   "integrity" "sha512-opNgmlu83ZCF792U281Ry7tak9IbVC+AKnXGovcQ8LG8wFaJv6cLnRlc6DIHlmNxWEexB5bZxi9SZ9JyUuOYjw=="
   "resolved" "https://registry.npmjs.org/node-sass/-/node-sass-5.0.0.tgz"
   "version" "5.0.0"
@@ -10830,6 +10830,13 @@
     "neo-async" "^2.6.1"
     "schema-utils" "^2.6.1"
     "semver" "^6.3.0"
+
+"sass@^1.3.0", "sass@^1.32.5":
+  "integrity" "sha512-kU1yJ5zUAmPxr7f3q0YXTAd1oZjSR1g3tYyv+xu0HZSl5JiNOaE987eiz7wCUvbm4I9fGWGU2TgApTtcP4GMNQ=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.32.5.tgz"
+  "version" "1.32.5"
+  dependencies:
+    "chokidar" ">=2.0.0 <4.0.0"
 
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
