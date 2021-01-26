@@ -23,7 +23,7 @@ const ContactForm = () => {
   }
   const sendEmail = () => {
     Axios.post(
-      'https://us-central1-ienaberlin.cloudfunctions.net/submit/',
+      'https://us-central1-ienaberlin.cloudfunctions.net/submit',
       formData
     )
       .then(res => {
