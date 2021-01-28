@@ -80,7 +80,7 @@ textarea:focus {
   color: orange;
 } */
 
-button {
+.buttonForm {
   transition: all 0.2s ease-in-out;
   font: 18px Helvetica, Arial, sans-serif;
   border: none;
@@ -92,7 +92,7 @@ button {
   letter-spacing: 5px;
 }
 
-button:hover {
+.buttonForm:hover {
   background: rgb(230,68,30);
   cursor: pointer;
 }

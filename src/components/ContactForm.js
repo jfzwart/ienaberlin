@@ -63,7 +63,7 @@ const ContactForm = () => {
           onChange={updateInput}
           value={formData.message || ''}
         ></textarea>
-        <button type="submit">Submit</button>
+        <button className="buttonForm" type="submit">Submit</button>
       </form>
     </>
   )

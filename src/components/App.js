@@ -21,11 +21,11 @@ class App extends React.Component {
                     <Header />
                     <Switch>
                         <Route path='/' exact component={Home}/>
-                        <Route path='/art' exact component={Art}/>
+                        <Route path='/art' exact component={Home}/>
                         <Route path='/contact' exact component={ContactForm} />
-                        <Route path='/sessions' exact component={Sessions}/>
-                        <Route path='/vintage' exact component={Vintage}/>
-                        <Route path='/accessories' exact component={Accessories}/>
+                        <Route path='/sessions' exact component={Home}/>
+                        <Route path='/vintage' exact component={Home}/>
+                        <Route path='/accessories' exact component={Home}/>
                     </Switch>
                     <Footer />
                 </div>
