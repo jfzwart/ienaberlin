@@ -1,7 +1,13 @@
 .header {
     display: flex;
     height: 200px;
+    width: 100%;
     background-size: cover;
+    object-fit: fill;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
 }
 
 .navbar-buttons {
