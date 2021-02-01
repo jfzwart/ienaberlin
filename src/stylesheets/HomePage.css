@@ -13,9 +13,6 @@
    -webkit-background-size: cover;
 }
 
-.container {
-}
-
 .center {
     margin-top: 200px;
     color: rgb(230,68,30);
@@ -23,7 +20,7 @@
 
 @media screen and (max-width: 648px) {
   .home-banner {
-    height: 480px;
+    height: 580px;
   }
 
   .center {

@@ -1,9 +1,12 @@
 .footer {
+    position: fixed;
+    bottom: 0;
     background: #DDDCDB;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
+    width: 100%;
+    min-height: 50px;
     padding: 0px 50px;
     color: rgba(0,0,0,0.3)
   }

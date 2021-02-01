@@ -35,15 +35,6 @@ const Header = () => {
                     x
                     </div>
                 </Link>
-                <Link to="/sessions"
-                className="button">
-                    <div className="button-text">
-                    SESSIONS
-                    </div>
-                    <div className="text-center">
-                    x
-                    </div>
-                </Link>
                 <Link to="/contact"
                 className="button">
                     <div className="button-text">
