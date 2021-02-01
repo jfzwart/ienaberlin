@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="navbar navbar-light header" style={{ backgroundImage: "url(/Banner.png"}}>
             <Link to="/" className="container-fluid justify-content-around brandname">IENAberlin</Link>
-            <div className="container-fluid justify-content-around">
+            <div className="container-fluid justify-content-around navbar-buttons">
                 <Link to="/art"
                 className="button">
                     <div className="button-text">

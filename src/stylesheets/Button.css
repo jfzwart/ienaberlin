@@ -18,3 +18,17 @@
 .button:hover {
     color: rgb(230,68,30);
 }
+
+@media screen and (max-width: 648px) {
+  .button {
+    font-size: small;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .button .button-text {
+    margin-bottom: -6px;
+}
+}

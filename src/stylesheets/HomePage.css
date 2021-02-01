@@ -1,5 +1,6 @@
 .home-banner {
     height: 765px;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     background-repeat:no-repeat;
@@ -13,12 +14,19 @@
 }
 
 .container {
-    position: relative;
 }
 
 .center {
-    position: absolute;
+    margin-top: 200px;
     color: rgb(230,68,30);
-    top: 32%;
-    left: 36.5%;
+}
+
+@media screen and (max-width: 648px) {
+  .home-banner {
+    height: 480px;
+  }
+
+  .center {
+    margin-top: 150px;
+  }
 }
