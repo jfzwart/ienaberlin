@@ -1,16 +1,40 @@
+
 .home-banner {
-    height: 765px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-repeat:no-repeat;
-    background-position: center bottom;
-    background-attachment: scroll;
-    background-size: cover;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
+  height: 765px;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-bottom: 40px; */
+  background-repeat:no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-size: cover;
+ -ms-background-size: cover;
+ -o-background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+}
+
+.home-text {
+  font-family: 'Nanum Gothic Coding', monospace;
+  max-width: 60%;
+  margin-bottom: 200px;
+  padding: 10px;
+}
+
+.home-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-image {
+  height: 650px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home-image img {
+  max-height: 600px
 }
 
 .center {
@@ -25,5 +49,17 @@
 
   .center {
     margin-top: 150px;
+  }
+
+  .home-text img {
+    width: 200px;
+  }
+
+  .home-image img {
+    height: 285px;
+  }
+
+  .home-text {
+    font-size: small;
   }
 }

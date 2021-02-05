@@ -109,4 +109,8 @@ textarea:focus {
   background: rgb(230,68,30);
   cursor: pointer;
 }
+
+.contact-form {
+  height: 100vh;
+}
   
