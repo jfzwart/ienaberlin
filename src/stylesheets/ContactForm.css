@@ -114,3 +114,16 @@ textarea:focus {
   height: 100vh;
 }
   
+@media screen and (max-width: 648px) {
+  .contact-text {
+    width: 380px;
+  }
+
+  textarea {
+    width: 380px;
+  }
+
+  input {
+    width: 380px;
+  }
+}
