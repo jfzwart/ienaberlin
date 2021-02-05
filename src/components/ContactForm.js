@@ -40,32 +40,37 @@ const ContactForm = () => {
   }
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          onChange={updateInput}
-          value={formData.name || ''}
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          onChange={updateInput}
-          value={formData.email || ''}
-        />
-        <textarea
-          type="text"
-          name="message"
-          placeholder="Message"
-          onChange={updateInput}
-          value={formData.message || ''}
-        ></textarea>
-        <button className="buttonForm" type="submit">Submit</button>
-      </form>
-    </>
+    <div className="contact-form">
+        <form onSubmit={handleSubmit}>
+          <div className="contact-text"> 
+          <p>
+            Want to get in contact for a collaboration or because you have some questions? Please fill out the form below and I will get back to you as soon as possible.
+          </p>
+          </div>
+          <input
+            type="text"
+            name="name"
+            placeholder="NAME"
+            onChange={updateInput}
+            value={formData.name || ''}
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="EMAIL"
+            onChange={updateInput}
+            value={formData.email || ''}
+          />
+          <textarea
+            type="text"
+            name="message"
+            placeholder="MESSAGE"
+            onChange={updateInput}
+            value={formData.message || ''}
+          ></textarea>
+          <button className="buttonForm" type="submit">Submit</button>
+        </form>
+      </div>
   )
 }
 

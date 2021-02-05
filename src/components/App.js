@@ -11,11 +11,13 @@ import history from '../history'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import ContactForm from './ContactForm'
+import '../stylesheets/index.css';
+
 
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className="app">
                 <Router history={history}>
                 <div>
                     <Header />
