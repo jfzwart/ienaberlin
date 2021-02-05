@@ -42,6 +42,12 @@
     color: rgb(230,68,30);
 }
 
+@media screen and (max-width: 990px) {
+  .home-image img {
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 648px) {
   .home-banner {
     height: 580px;
@@ -56,7 +62,7 @@
   }
 
   .home-image img {
-    height: 285px;
+    height: 200px;
   }
 
   .home-text {
