@@ -21,6 +21,10 @@
   padding: 10px;
 }
 
+.home-test img {
+  width: 500px;
+}
+
 .home-box {
   display: flex;
   justify-content: space-between;
