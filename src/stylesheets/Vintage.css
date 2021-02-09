@@ -1,0 +1,50 @@
+.card {
+    max-width: 300px;
+    height: 765px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+}
+
+.card img {
+    max-width: 300px;
+}
+
+.card p {
+    max-width: 300px;
+    color: black;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cardContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 648px) {
+
+.card h1 {
+    font-size: x-small;
+}
+
+.card p {
+font-size: x-small;
+}
+
+.cardContainer {
+    height: 100vh;
+    display: grid;
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+  }

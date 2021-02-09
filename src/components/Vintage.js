@@ -2,6 +2,7 @@ import React from 'react';
 import Item1 from '../images/Vintage1.jpg'
 import Item2 from '../images/Vintage2.jpg'
 import Item3 from '../images/Vintage3.jpg'
+import '../stylesheets/Vintage.css';
 
 const items = [
     {   
@@ -27,24 +28,21 @@ const items = [
 const Vintage = () => {
     const renderedList = items.map((item) => {
         return (
-            <h1 className="header">{item.title}</h1>
+            <div className="card">
+                <div className="card image">
+                    <img src={item.img} alt={item.title}></img>
+                    <h1 className="header centered">{item.title}</h1>
+                </div>
+                <div className="card description">
+                    <p>{item.desc}</p>
+                </div>
+            </div>
         )
     })
 
     return (
-        <div>{renderedList}</div>
+        <div className="cardContainer ">{renderedList}</div>
     );
 }
 
 export default Vintage;
-
-// const seasonConfig = {
-//     summer: {
-//         text: "Let's hit the beach",
-//         iconName: 'sun'
-//     },
-//     winter: {
-//         text: 'Brrrr, it is cold',
-//         iconName: 'snowflake'
-//     }
-// };
