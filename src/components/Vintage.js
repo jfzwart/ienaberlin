@@ -29,11 +29,11 @@ const Vintage = () => {
     const renderedList = items.map((item) => {
         return (
             <div className="card">
-                <div className="card image">
+                <div className="card-image">
                     <img src={item.img} alt={item.title}></img>
                     <h1 className="header centered">{item.title}</h1>
                 </div>
-                <div className="card description">
+                <div className="card-description">
                     <p>{item.desc}</p>
                 </div>
             </div>
