@@ -36,7 +36,6 @@
 }
 
 .cardContainer {
-    height: 110vh;
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
