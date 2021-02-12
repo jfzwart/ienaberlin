@@ -12,6 +12,11 @@ const ContactForm = () => {
     })
     console.log(formData)
   }
+
+  const onButtonClickHandler = () => {
+    window.alert('Thank you! Your message has been sent. I will get back to you as soon as possible. ')
+  };
+
   const handleSubmit = event => {
     event.preventDefault()
     sendEmail()
@@ -20,7 +25,9 @@ const ContactForm = () => {
       email: '',
       message: '',
     })
+    onButtonClickHandler()
   }
+
   const sendEmail = () => {
     Axios.post(
       'https://us-central1-ienaberlin.cloudfunctions.net/submit',
@@ -68,7 +75,7 @@ const ContactForm = () => {
             onChange={updateInput}
             value={formData.message || ''}
           ></textarea>
-          <button className="buttonForm" type="submit">Submit</button>
+          <button className="buttonForm" type="submit" onClick={onButtonClickHandler}>Submit</button>
         </form>
       </div>
   )
